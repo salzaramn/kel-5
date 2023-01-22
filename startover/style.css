@@ -1,0 +1,1094 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+.kelompok {
+    width: 100%;
+    color: white;
+    background: #000000;
+    opacity: 1;
+    border: #000000 0, 5px solid;
+    position: absolute;
+    display: flex;
+    top: 0;
+}
+
+.kotak{
+    width: 90%;
+    height: 80pc;
+    background: #000000;
+    margin: 5%;
+    opacity: 0.9;
+    border: #000000 0,5px solid;
+    position: absolute;
+}
+.pembuka {
+    background: white;
+    opacity: 0.9;
+    position: absolute;
+    width: 1133PX;
+    height: 380px;
+    border: #000000 2px solid;
+    border-radius: 25px;
+    display:flex;
+}
+
+.kiri {
+    width: 60%;
+}
+
+.kanan {
+    max-width: 40%;
+}
+
+.icon{
+    margin:10px;
+    width: 80%;
+}
+
+.judul {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.kondisi {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+}
+
+.buttonatas {
+    font-size: 1em;
+    padding: 10px;
+    color: green;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin-top: 50px;
+}
+
+.buttonatas:hover {
+    background: black;
+}
+
+.data {
+    opacity: 0.9;
+    width: 1133px;
+    height: 150px;
+    margin-top: 382px;
+    display: flex;
+}
+
+.kliring {
+    width: 240px;
+    border: #000000 2px solid;
+    border-radius: 25px;
+}
+
+.rtgs {
+    width: 240px;
+    border: #000000 2px solid;
+}
+
+.inflow {
+    width: 240px;
+    border: #000000 2px solid;
+}
+
+.utle{
+    width: 240px;
+    border: #000000 2px solid;
+}
+
+.uangpalsu {
+    width: 240px;
+    border: #000000 2px solid;
+}
+
+.dtno {
+    font-size: 30px;
+}
+
+.angka {
+    width: 100%;
+    height: 55%; 
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.angka2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+
+.persen {
+    width: 50%;
+}
+
+.tw {
+    width: 50%;
+}
+
+.row1 {
+    display: flex;
+    height: 300px;
+    width: 604px;
+}
+
+.row2 {
+    display: flex;
+    height: 300px;
+    width: 604px;
+}
+
+.bag1 {
+    background: white;
+    height: 300px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    margin-left: 2px;
+}
+
+.display1 {
+    display: flex;
+}
+
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    margin: 25px;
+}
+
+.petik {
+    margin: 25px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.bag2 {
+    background: white;
+    height: 300px;
+    width: 300px;
+    opacity: 0.9;
+    border: #000000 2px solid;
+    border-radius: 25px;
+    position: absolute;
+    left: 302px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bag3 {
+    background: white;
+    height: 600px;
+    width: 300px;
+    opacity: 0.9;
+    border: #000000 2px solid;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 604px;
+    top: 533px;
+}
+
+
+
+.bag4 {
+    background: white;
+    height: 300px;
+    width: 300px;
+    opacity: 0.9;
+    border: #000000 2px solid;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bag5 {
+    background-image: url(square.jpg);
+    height: 300px;
+    min-width: 300px;
+    opacity: 0.9;
+    border: #000000 2px solid;
+    border-radius: 25px;
+    margin-left: 304px;
+    margin-top: 0;
+}
+
+.button {
+    font-size: 1em;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: #06D85F;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 90%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        width: 90%;
+    }
+
+    .popup {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
